@@ -1,14 +1,11 @@
 {
   "expo": {
-    "name": "react-native-guess-a-number",
-    "slug": "react-native-guess-a-number",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Guess Number",
+    "slug": "guess-number",
+    "description": "Testing Description for Guess a Number App",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
